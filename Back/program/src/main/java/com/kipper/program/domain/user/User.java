@@ -1,4 +1,4 @@
-package com.startSolucao.program.domain.user;
+package com.kipper.program.domain.user;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

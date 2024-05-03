@@ -8,7 +8,7 @@
 		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.startSolucao</groupId>
+	<groupId>com.kipper</groupId>
 	<artifactId>program</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>program</name>

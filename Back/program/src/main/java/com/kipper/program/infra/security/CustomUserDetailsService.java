@@ -1,14 +1,16 @@
-package com.startSolucao.program.infra.security;
+package com.kipper.program.infra.security;
 
-import com.startSolucao.program.domain.user.User;
-import com.startSolucao.program.repositories.UserRepository;
+import com.kipper.program.domain.user.User;
+import com.kipper.program.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
+@Component
 public class CustomUserDetailsService implements UserDetailsService {
     @Autowired
     private UserRepository repository;

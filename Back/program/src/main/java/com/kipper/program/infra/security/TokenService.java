@@ -1,10 +1,10 @@
-package com.startSolucao.program.infra.security;
+package com.kipper.program.infra.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
-import com.startSolucao.program.domain.user.User;
+import com.kipper.program.domain.user.User;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

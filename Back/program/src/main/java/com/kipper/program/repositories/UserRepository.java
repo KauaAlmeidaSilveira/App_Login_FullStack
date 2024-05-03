@@ -1,6 +1,6 @@
-package com.startSolucao.program.repositories;
+package com.kipper.program.repositories;
 
-import com.startSolucao.program.domain.user.User;
+import com.kipper.program.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

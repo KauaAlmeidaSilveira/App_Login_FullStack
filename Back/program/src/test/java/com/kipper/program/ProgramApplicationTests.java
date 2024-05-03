@@ -1,4 +1,4 @@
-package com.startSolucao.program;
+package com.kipper.program;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
